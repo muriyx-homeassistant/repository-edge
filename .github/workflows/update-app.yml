@@ -2,15 +2,15 @@ name: Update app
 
 on:
   repository_dispatch:
-    types: [update_app]
+    types: [publish-app]
   workflow_dispatch:
     inputs:
       source_repository:
-        description: Source repository, for example muriyx-homeassistant/app-grafana
+        description: Source repository, for example my-org/app-grafana
         required: true
         type: string
-      source_ref:
-        description: Source commit SHA or tag
+      source_sha:
+        description: Source commit SHA
         required: true
         type: string
       source_path:
@@ -18,15 +18,15 @@ on:
         required: true
         default: grafana
         type: string
-      app_slug:
+      slug:
         description: Home Assistant app slug
         required: true
         type: string
-      app_version:
+      version:
         description: Version written to config.yaml
         required: true
         type: string
-      app_image:
+      image:
         description: Image without tag, for example ghcr.io/org/grafana/{arch}
         required: true
         type: string
@@ -36,11 +36,11 @@ permissions:
 
 env:
   SOURCE_REPOSITORY: ${{ github.event.client_payload.source_repository || inputs.source_repository }}
-  SOURCE_REF: ${{ github.event.client_payload.source_ref || inputs.source_ref }}
+  SOURCE_SHA: ${{ github.event.client_payload.source_sha || inputs.source_sha }}
   SOURCE_PATH: ${{ github.event.client_payload.source_path || inputs.source_path }}
-  APP_SLUG: ${{ github.event.client_payload.app_slug || inputs.app_slug }}
-  APP_VERSION: ${{ github.event.client_payload.app_version || inputs.app_version }}
-  APP_IMAGE: ${{ github.event.client_payload.app_image || inputs.app_image }}
+  APP_SLUG: ${{ github.event.client_payload.slug || inputs.slug }}
+  APP_VERSION: ${{ github.event.client_payload.version || inputs.version }}
+  APP_IMAGE: ${{ github.event.client_payload.image || inputs.image }}
 
 jobs:
   update:
@@ -51,7 +51,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for name in SOURCE_REPOSITORY SOURCE_REF SOURCE_PATH APP_SLUG APP_VERSION APP_IMAGE; do
+          for name in SOURCE_REPOSITORY SOURCE_SHA SOURCE_PATH APP_SLUG APP_VERSION APP_IMAGE; do
             if [[ -z "${!name:-}" ]]; then
               echo "Missing required value: $name" >&2
               exit 1
@@ -72,7 +72,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: ${{ env.SOURCE_REPOSITORY }}
-          ref: ${{ env.SOURCE_REF }}
+          ref: ${{ env.SOURCE_SHA }}
           path: source
           persist-credentials: false
 
@@ -85,9 +85,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Several apps can publish at nearly the same time. Instead of relying on
-          # Actions concurrency (which can replace pending runs), always re-apply
-          # this app update on top of the newest catalog commit before each push.
           for attempt in 1 2 3 4 5; do
             echo "Publish attempt ${attempt}/5"
             git fetch origin "${GITHUB_REF_NAME}"
