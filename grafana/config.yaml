@@ -1,6 +1,6 @@
 ---
 name: Grafana
-version: "d58f280"
+version: "21e477c"
 slug: grafana
 description: The open platform for beautiful analytics and monitoring with VictoriaMetrics datasource support
 url: https://github.com/muriyx-homeassistant/app-grafana
