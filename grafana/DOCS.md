@@ -18,7 +18,7 @@ comparison to installing any other Home Assistant app.
 1. Click the Home Assistant My button below to open the app on your Home
    Assistant instance.
 
-   [![Open this app in your Home Assistant instance.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=13ec40a8_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fmuriyx-homeassistant%2Frepository)
+   [![Open this app in your Home Assistant instance.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=75d7fbb7_grafana&repository_url=https%3A%2F%2Fgithub.com%2Fmuriyx-homeassistant%2Frepository)
 
 1. Click the "Install" button to install the app.
 1. Start the "Grafana" app.
