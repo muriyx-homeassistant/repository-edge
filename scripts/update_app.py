@@ -10,6 +10,7 @@ from pathlib import Path
 
 FILES_TO_COPY = (
     "config.yaml",
+    "README.md",
     "DOCS.md",
     "CHANGELOG.md",
     "icon.png",
