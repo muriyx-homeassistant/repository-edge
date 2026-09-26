@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       source_repository:
-        description: Source repository, for example my-org/app-grafana
+        description: Source repository, for example muriyx-homeassistant/app-grafana
         required: true
         type: string
       source_sha:
