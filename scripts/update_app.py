@@ -81,6 +81,11 @@ def main() -> None:
 
     for name in FILES_TO_COPY:
         src = source / name
+        if name == "README.md" and not src.is_file():
+            for parent in (source, *source.parents):
+                if (parent / ".git").exists():
+                    src = parent / name
+                    break
         if src.is_file():
             shutil.copy2(src, destination / name)
 
