@@ -1,5 +1,12 @@
 # Changelog
 
+## e002f0b
+
+- Merge pull request \#17 from muriyx-homeassistant/dev ([e002f0b](https://github.com/muriyx-homeassistant/app-grafana/commit/e002f0b7a310b380a97af1fd6fee4ccec1cf089a))
+- fix: make s6 service scripts executable ([e0a42c2](https://github.com/muriyx-homeassistant/app-grafana/commit/e0a42c21caa8d3206c85a6bd05d961a4475a37d5))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/866b0c0dc0cfb505cd02cb89a25f87de701f45aa...e002f0b7a310b380a97af1fd6fee4ccec1cf089a)
+
 ## 866b0c0
 
 - Merge pull request \#16 from muriyx-homeassistant/dev ([866b0c0](https://github.com/muriyx-homeassistant/app-grafana/commit/866b0c0dc0cfb505cd02cb89a25f87de701f45aa))
