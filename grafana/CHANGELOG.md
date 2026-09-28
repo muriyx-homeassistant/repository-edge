@@ -1,5 +1,12 @@
 # Changelog
 
+## 866b0c0
+
+- Merge pull request \#16 from muriyx-homeassistant/dev ([866b0c0](https://github.com/muriyx-homeassistant/app-grafana/commit/866b0c0dc0cfb505cd02cb89a25f87de701f45aa))
+- Add s6-overlay user bundle definitions for Grafana, Nginx, and Memcached ([d3f4765](https://github.com/muriyx-homeassistant/app-grafana/commit/d3f47656da14d63c860d0c9af3d07c4e15c37d7a))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/1332c498166212fe7dbf3dd230decde702a78b8e...866b0c0dc0cfb505cd02cb89a25f87de701f45aa)
+
 ## 1332c49
 
 - Merge pull request \#15 from muriyx-homeassistant/dev ([1332c49](https://github.com/muriyx-homeassistant/app-grafana/commit/1332c498166212fe7dbf3dd230decde702a78b8e))
