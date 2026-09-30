@@ -1,5 +1,12 @@
 # Changelog
 
+## 5f88ea9
+
+- Merge pull request \#5 from muriyx-homeassistant/renovate/victoriametrics-victoriametrics-datasource-0.x ([5f88ea9](https://github.com/muriyx-homeassistant/app-grafana/commit/5f88ea96c497cce48cc6ffa1420e19dc7e646581))
+- ⬆️ Update VictoriaMetrics/victoriametrics-datasource to v0.26.1 ([8253979](https://github.com/muriyx-homeassistant/app-grafana/commit/8253979febef85ed2ee24df3557dcf99158a343e))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/e3e1e18ccad563b1702cefbe09edcf7a6c797676...5f88ea96c497cce48cc6ffa1420e19dc7e646581)
+
 ## e3e1e18
 
 - Merge pull request \#14 from muriyx-homeassistant/renovate/app-base-image ([e3e1e18](https://github.com/muriyx-homeassistant/app-grafana/commit/e3e1e18ccad563b1702cefbe09edcf7a6c797676))
