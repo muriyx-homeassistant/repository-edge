@@ -1,5 +1,12 @@
 # Changelog
 
+## f1d0c28
+
+- Merge pull request \#18 from muriyx-homeassistant/renovate/grafana-grafana-13.x ([f1d0c28](https://github.com/muriyx-homeassistant/app-grafana/commit/f1d0c289368971f1fb9df5bc8110d61c738017aa))
+- ⬆️ Update grafana/grafana to v13.2.4 ([3f3233b](https://github.com/muriyx-homeassistant/app-grafana/commit/3f3233b0a183455e50fc18f5b00f6f45cae7efc1))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/d02d3579b3cb4a4dd075951a6f5eb5da060760fa...f1d0c289368971f1fb9df5bc8110d61c738017aa)
+
 ## d02d357
 
 - Merge pull request \#4 from muriyx-homeassistant/renovate/grafana-grafana-13.x ([d02d357](https://github.com/muriyx-homeassistant/app-grafana/commit/d02d3579b3cb4a4dd075951a6f5eb5da060760fa))
