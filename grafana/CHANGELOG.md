@@ -1,5 +1,12 @@
 # Changelog
 
+## d73f968
+
+- Merge pull request \#22 from muriyx-homeassistant/dev ([d73f968](https://github.com/muriyx-homeassistant/app-grafana/commit/d73f9688baa9f02223a146457f2a274e9b917904))
+- fix: preserve APT revision wildcards in Renovate updates ([f7c464d](https://github.com/muriyx-homeassistant/app-grafana/commit/f7c464d37a69e72dba1b50d6da078e7c960378eb))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/f1d0c289368971f1fb9df5bc8110d61c738017aa...d73f9688baa9f02223a146457f2a274e9b917904)
+
 ## f1d0c28
 
 - Merge pull request \#18 from muriyx-homeassistant/renovate/grafana-grafana-13.x ([f1d0c28](https://github.com/muriyx-homeassistant/app-grafana/commit/f1d0c289368971f1fb9df5bc8110d61c738017aa))
