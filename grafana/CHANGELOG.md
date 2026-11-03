@@ -1,5 +1,12 @@
 # Changelog
 
+## faab133
+
+- Merge pull request \#20 from muriyx-homeassistant/renovate/docker-login-action-4.x ([faab133](https://github.com/muriyx-homeassistant/app-grafana/commit/faab133e3e0ce5d1083c73094e2bb6b37213ba83))
+- ⬆️ Update docker/login-action action to v4.7.0 ([5e4c0a3](https://github.com/muriyx-homeassistant/app-grafana/commit/5e4c0a3ca4d19955f2c62391651fa269573dd904))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/0b8cb18aac541701851df144e09b248362f33590...faab133e3e0ce5d1083c73094e2bb6b37213ba83)
+
 ## 0b8cb18
 
 - Merge pull request \#19 from muriyx-homeassistant/renovate/app-base-image ([0b8cb18](https://github.com/muriyx-homeassistant/app-grafana/commit/0b8cb18aac541701851df144e09b248362f33590))
