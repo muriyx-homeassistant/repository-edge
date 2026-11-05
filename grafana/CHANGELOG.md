@@ -1,5 +1,12 @@
 # Changelog
 
+## f1d8ef1
+
+- Merge pull request \#24 from muriyx-homeassistant/renovate/app-base-image ([f1d8ef1](https://github.com/muriyx-homeassistant/app-grafana/commit/f1d8ef1e0b4de319e7330acd9e1892215994e3e5))
+- ⬆️ Update App base image to v9.5.2 ([6b292d1](https://github.com/muriyx-homeassistant/app-grafana/commit/6b292d134b94129a4d33ad68532aa4a38431ffcf))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/a260cc28a846f4d4883711af073bd8accddfa9d5...f1d8ef1e0b4de319e7330acd9e1892215994e3e5)
+
 ## a260cc2
 
 - Merge pull request \#21 from muriyx-homeassistant/renovate/grafana-grafana-13.x ([a260cc2](https://github.com/muriyx-homeassistant/app-grafana/commit/a260cc28a846f4d4883711af073bd8accddfa9d5))
