@@ -1,5 +1,12 @@
 # Changelog
 
+## 14fe912
+
+- Merge pull request \#25 from muriyx-homeassistant/renovate/docker-login-action-4.x ([14fe912](https://github.com/muriyx-homeassistant/app-grafana/commit/14fe9123b00310db359bc81704d07e9fa889b910))
+- ⬆️ Update docker/login-action action to v4.8.0 ([c0df012](https://github.com/muriyx-homeassistant/app-grafana/commit/c0df012aa72caab4270900de0f5b9a86a2b9fe0c))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/c84b5cb27ae9cee9e37e308c424362714e94161d...14fe9123b00310db359bc81704d07e9fa889b910)
+
 ## c84b5cb
 
 - Merge pull request \#23 from muriyx-homeassistant/renovate/victoriametrics-victoriametrics-datasource-1.x ([c84b5cb](https://github.com/muriyx-homeassistant/app-grafana/commit/c84b5cb27ae9cee9e37e308c424362714e94161d))
