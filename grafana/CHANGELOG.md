@@ -1,5 +1,12 @@
 # Changelog
 
+## a86fc7d
+
+- Merge pull request \#26 from muriyx-homeassistant/renovate/grafana-grafana-13.x ([a86fc7d](https://github.com/muriyx-homeassistant/app-grafana/commit/a86fc7d6d19f836dceff8268bb98ce4c5656d097))
+- ⬆️ Update grafana/grafana to v13.3.1 ([253e501](https://github.com/muriyx-homeassistant/app-grafana/commit/253e501f26888838b82db955ac287a4daffd27a9))
+
+[Full changelog](https://github.com/muriyx-homeassistant/app-grafana/compare/14fe9123b00310db359bc81704d07e9fa889b910...a86fc7d6d19f836dceff8268bb98ce4c5656d097)
+
 ## 14fe912
 
 - Merge pull request \#25 from muriyx-homeassistant/renovate/docker-login-action-4.x ([14fe912](https://github.com/muriyx-homeassistant/app-grafana/commit/14fe9123b00310db359bc81704d07e9fa889b910))
